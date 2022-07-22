@@ -1,0 +1,86 @@
+*{  font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header{
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    background-color: #2E948A;
+    width: 100%;
+    justify-content: space-between;  
+              
+}
+
+nav{
+   display: flex;
+    align-items: center;
+    
+}
+.nav ul{
+  display: flex;
+    justify-content: end;
+}
+.nav ul li{
+    list-style-type: none;
+    padding-right: 14px;    
+}
+.nav ul li a{
+    color: #FDFDFD;
+    text-decoration: none;
+}
+.contato{
+    display: flex;
+}
+h1{
+    color: #FF4081;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 46px;
+}
+.contato input {
+    font-family: "Nunito",sans-serif;
+    font-weight: 400;
+    color: #58555D;
+    height: 30px;
+    width: 500px;
+    margin-top: 20px;
+
+    border-radius: 7px;
+    text-align: left;
+    padding: 10px 10px 10px 10px;
+    border: 1px solid #686868;
+    stroke: none;
+}
+button {
+    border: 1px solid;
+    background-color: #FF4081;
+    color: #ffffff;
+    width: 108px;
+    height: 32px;
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.menu2, a, .botoes {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+
+footer {
+    background-color: #2E948A;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 103px 26px 82px;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 20px;
+    
+}   
